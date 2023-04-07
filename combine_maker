@@ -1,0 +1,3 @@
+#!/bin/bash
+stty -echo
+python /Users/jeonmincheol/Downloads/Book_Capture/text_combine.py
