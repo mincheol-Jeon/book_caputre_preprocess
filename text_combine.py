@@ -6,7 +6,7 @@ import os
 import datetime
 import pandas as pd
 import json
-with open('/Users/jeonmincheol/Downloads/Book_Capture/path_box.json') as f:
+with open('/Users/jeonmincheol/Book_Capture/path_box.json') as f:
     path = json.load(f)
 
 file = glob.glob("{}/*.txt".format(path['path']['text_path']))
