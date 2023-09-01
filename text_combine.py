@@ -25,7 +25,8 @@ for i in idx:
     sentence = f.readlines()
     str_list += sentence
     f.close()
+print('텍스트 변환 완료')
     
-
-with open('{}/combine_{}.txt'.format(path['path']['combine_path'],accurate_today),'w') as file:
+book_name = str(input())
+with open('{}/combine_{}_{}.txt'.format(path['path']['combine_path'],accurate_today,book_name),'w') as file:
     file.writelines(str_list)
