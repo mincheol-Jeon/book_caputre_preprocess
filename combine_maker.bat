@@ -1,3 +1,3 @@
 @echo off
-python text_combine.py
+python Naver_Cloud_OCR.py
 pause
