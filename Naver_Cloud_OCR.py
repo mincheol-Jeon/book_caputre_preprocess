@@ -23,7 +23,7 @@ for i in image_folder:
 idx = list(dic.keys())
 idx = sorted(idx)
 
-for i in idx:
+for i in tqdm(idx):
     image_file = dic[i]
         
     with open(image_file,'rb') as f:
