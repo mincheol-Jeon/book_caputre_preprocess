@@ -1,6 +1,7 @@
 import sys, glob, pandas, numpy, os, json, requests
 # import selenium, seleniumwire, chromedriver # hoxy..?
 import uuid, time, base64, datetime
+from tqdm import tqdm
 
 with open('/Users/jeonmincheol/Book_Capture/path_box.json') as f:
     path = json.load(f)
